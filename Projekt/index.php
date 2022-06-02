@@ -26,7 +26,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <aside class="sticky">
   <ul>
     <li>Home Page</li>
-    <li>ACTUALY VOTING</li>
+    <li><a href = "Voting/index.php">ACTUALY VOTING </a></li>
     <li>Incomming Events</li>
     <li>Contact</li>
     <li class="hide top"><a href="#">Back To Top</a></li>
