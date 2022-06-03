@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  position: relative;
+  font-family: 'Open Sans';
+  color: #1B1B1B;
+  font-size: 16px;
+  line-height: 24px;
+  background: #d4d3d3;
+}
+.container {
+  width: 1860px;
+  margin: auto;
+}
+section {
+  width: 1600px;
+  float: right;
+  overflow: hidden;
+  display:block;
+}
+aside {
+  margin-top: 0px;
+  background-color: #1e2027;
+  height: 780px;
+  float: left;
+  width: 200px;
+  padding-top: 0px;
+}
+ul li {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #d4d3d3;
+  font-weight: bold;
+
+}
+a {
+  text-decoration: none;
+  color: #d4d3d3;
+}
+/*to znikajace gówno <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+#wtf a{
+color:#1e2027;
+/*-----------------------------------------------------------------------------*/
+}
+section div {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+section div h1 {
+  font-size: 24px;
+  padding: 20px 0px;
+  font-weight: bold;
+}
+p {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+    padding-left: 20px;
+}
+.fixed {
+  position: fixed;
+  margin-top: 0px;
+}
+.hide {
+  display: none;
+}
+
+h2 {
+  font-size: 40px;
+  color:rgb(194, 34, 34);
+}
+h1 {
+  font-size: 40px;
+  
+}
+/*ffsdfsdfsdfsdfsdfsdfsdfsfsdfsdfsfsfsdsfsdfsd           w pyte panowie           ffsdfsdfsdfsdfsdfsdfsfsdfsfs*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#1B1B1B;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #1B1B1B;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#1B1B1B;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#d4d3d3;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: #494949; }
+
+
+.LT {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #ca3434;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.LT:hover {
+  background-color: #993744;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.LT:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.LT:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+
+.RP{
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #38b673;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.RP:hover {
+  background-color: #2b915b;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.RP:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.RP:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

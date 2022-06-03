@@ -1,0 +1,19 @@
+img.mapa {
+    border-radius: 2px;
+    height: 500px;
+    width: 800px;
+
+
+}
+
+#icons {
+font-size: 30px;
+color: #151E3F;
+
+}
+
+div img{
+
+    height: 60px;
+    width: 60px;
+}
